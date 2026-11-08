@@ -103,7 +103,7 @@
   .stats div.wide{grid-column:span 2;background:var(--accent-soft)}
   .stats b{display:block;font-family:"Unbounded",sans-serif;font-weight:500;font-size:24px;line-height:1.15;position:relative;z-index:1}
   .stats span{font-size:13px;color:var(--muted)}
-  .stats .ring{position:relative;display:inline-block;font-size:inherit;color:var(--ink)}
+  .stats .ring{position:relative;display:inline-block;font-size:inherit;color:var(--ink);min-width:1.6em;text-align:center}
   .stats .ring svg{position:absolute;left:-14%;top:-30%;width:128%;height:160%;z-index:0;pointer-events:none}
 
   .photos{display:flex;gap:18px;justify-content:center;padding:8px 0}
@@ -354,8 +354,8 @@
           <div><b>5</b><span>неформальных встреч</span></div>
         </div>
         <div class="photos">
-          <figure class="polaroid"><span class="tape"></span><div class="ph"><svg><use href="#camera"/></svg></div><figcaption>фото скоро</figcaption></figure>
-          <figure class="polaroid"><svg class="clip" aria-hidden="true"><use href="#clip"/></svg><div class="ph"><svg><use href="#camera"/></svg></div><figcaption>фото скоро</figcaption></figure>
+          <figure class="polaroid"><span class="tape"></span><div class="ph"><img src="img/trips-1.jpg" alt="Участники зимнего выезда на горнолыжном склоне" loading="lazy"></div><figcaption>зимний выезд</figcaption></figure>
+          <figure class="polaroid"><svg class="clip" aria-hidden="true"><use href="#clip"/></svg><div class="ph"><img src="img/trips-2.jpg" alt="Общее фото участников выездного мероприятия" loading="lazy"></div><figcaption>вся команда в сборе</figcaption></figure>
         </div>
       </aside>
     </div>
